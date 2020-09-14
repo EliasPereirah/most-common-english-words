@@ -1,0 +1,69 @@
+html,body{
+    background-color: #673ab4;
+}
+
+#hiddenAudios{
+   display: none;
+
+}
+#myForm{
+    padding-top: 25px;
+    display: none;
+}
+.block{
+    box-shadow: #3c3939 1px 1px 20px 0.1px;
+    width: 70%;
+    margin:25px 15% 0 15%;
+    height: 450px;
+    background-color: #0f172f;
+    border-radius: 4px;
+    color: darkorange;
+    font-weight: 700;
+    text-align: center;
+}
+#en{
+    border-bottom: 4px dotted #ffffff;
+}
+#en, #pt{
+    font-size: 4.2em;
+    padding: 35px;
+}
+input#velocity{
+    height: 23px;
+    border-radius: 7px;
+    width: 50px;
+    font-weight: 900;
+}
+.btnToggle{
+    padding: 5px 8px;
+    color: #fff;
+    border: none;
+    background-color: rgba(175,8,36,0.78);
+    border-radius: 3px;
+}
+
+#initButton{
+    padding: 8px;
+    border-radius: 3px;
+    background-color: rgb(249, 37, 217);
+    color: rgb(255, 248, 221);
+
+}
+#hideMe{
+    color: #35e809;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+
+@media only screen and (max-width: 850px){
+    .block{
+        width: 100%;
+        margin:25px 0;
+    }
+    #en, #pt{
+        font-size: 2.5em;
+    }
+
+}
